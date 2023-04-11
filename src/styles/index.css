@@ -252,6 +252,9 @@
     align-items: center;
     border: 1px solid #E5E5E5;
     border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
 }
 
 .category__img {
