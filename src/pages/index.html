@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <section class="header-top bg-black">
+      <div class="container header-top__container">
+        <div class="header-top__ad">
+          <p class="header-top__ad-text">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="header-top__ad-link">ShopNow</a>
+        </div>
+        <!-- <div class="header-top__language">
+          <a href="#" class="header-top__language-link">English</a>
+        </div> -->
+        <!-- в теге a есть ссылка на нужную страницу. В seleсt нет -->
+        <select class="header-top__language" name="language">
+          <option value="English" style="color:black">English</option>
+          <option value="Spanish" style="color:black">Еspañol</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="header-menu">
+      <div class="container header-menu__container">
+        <a class="header-menu__name" href="./index.html">Exclusive</a>
+        <nav class="header-menu__menu">
+          <ul class="header-menu__menu-list">
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./index.html">Home</a></li>
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./contact.html">Contact</a></li>
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./about.html">About</a></li>
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./sign-up.html">Sign Up</a></li>
+          </ul>
+        </nav>
+        <div class="header-menu__block-user">
+          <div class="header-menu__inputs">
+            <input class="header-menu__input" type="text" name="input-search" placeholder="What are you looking for?">
+            <input class="header-menu__input-loupe" readonly>
+          </div>
+
+          <div class="header-menu__icons">
+            <a href="./wishlist.html" class="header-menu__icons-heart"><img src="../images/icons/heart-header.png"
+                alt="heart"></a>
+            <a href="./cart.html" class="header-menu__icons-cart"><img src="../images/icons/cart-header.png"
+                alt="cart"></a>
+            <a href="./account.html" class="header-menu__icons-user hidden"><img src="../images/icons/user.png"
+                alt="user"></a>
+          </div>
+        </div>
+        <div class="dropdown hidden">
+          <a class="dropdown__link" href="./account.html"><img class="dropdown__img"
+              src="../images/icons/dropdown-user.svg" alt="user">Manage My Account</a>
+          <a class="dropdown__link" href="#"><img class="dropdown__img" src="../images/icons/dropdown-order.svg"
+              alt="user">My Order</a>
+          <a class="dropdown__link" href="#"><img class="dropdown__img" src="../images/icons/dropdown-cancellations.svg"
+              alt="user">My Cancellations</a>
+          <a class="dropdown__link" href="#"><img class="dropdown__img" src="../images/icons/dropdown-reviews.svg"
+              alt="user">My Reviews</a>
+          <a class="dropdown__link" href="#"><img class="dropdown__img" src="../images/icons/dropdown-logout.svg"
+              alt="user">Logout</a>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="first-screen">
+        <div class="container first-screen__container">
+          <nav class="menu">
+            <ul class="menu__list text">
+              <li class="menu__item menu__item_arrow"><a class="menu__link" href="#">Woman’s Fashion <img
+                    src="../images/icons/menu-arrow.svg" alt="" arrow></a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Men’s Fashion <img
+                    src="../images/icons/menu-arrow.svg" alt="" arrow></a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Electronics</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Home & Lifestyle</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Medicine</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Sports & Outdoor</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Baby’s & Toys</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Groceries & Pets</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Health & Beauty</a></li>
+            </ul>
+          </nav>
+          <div class="slider">
+            <div class="slider-first">
+              <div class="slider-first__block">
+                <h3 class="slider-first__subtitle">
+                  <img class="slider-first__image" src="../images/icons/Apple_logo.svg" alt="apple">
+                  iPhone 14 Series
+                </h3>
+                <p class="slider-first__title">Up to 10% off Voucher</p>
+                <a class="slider-first__shop" href="#">
+                  ShopNow
+                  <!-- <img class="slider-first__img" src="../images/icons/promo-arrow-white.svg" alt="arrow"> -->
+                </a>
+              </div>
+
+            </div>
+            <div class="slider__dots">
+              <span class="slider__dots_style dot-1"></span>
+              <span class="slider__dots_style dot-2"></span>
+              <span class="slider__dots_style dot-3 dot-active"></span>
+              <span class="slider__dots_style dot-4"></span>
+              <span class="slider__dots_style dot-5"></span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="section today">
+        <div class="container today-container">
+          <h3 class="section__subtitle subtitle-red">Today’s</h3>
+
+          <div class="section__title">
+            <h2 class="section__title-text title">Flash Sales</h2>
+            <div class="today__timer">
+              <div class="today__timer-group">
+                <div class="today__timer-text">Days</div>
+                <div class="today__timer-digit">03</div>
+              </div>
+              <div class="today__timer-divider"><img src="../images/icons/timer-divider.png" alt="divider"></div>
+              <div class="today__timer-group">
+                <div class="today__timer-text">Hours</div>
+                <div class="today__timer-digit">23</div>
+              </div>
+              <div class="today__timer-divider"><img src="../images/icons/timer-divider.png" alt="divider"></div>
+              <div class="today__timer-group">
+                <div class="today__timer-text">Minutes</div>
+                <div class="today__timer-digit">19</div>
+              </div>
+              <div class="today__timer-divider"><img src="../images/icons/timer-divider.png" alt="divider"></div>
+              <div class="today__timer-group">
+                <div class="today__timer-text">Seconds</div>
+                <div class="today__timer-digit">56</div>
+              </div>
+            </div>
+            <div class="section__block_right">
+              <div class="section__arrows"><img src="../images/icons/section-arrow-left.svg" alt="arrow left"></div>
+              <div class="section__arrows"><img src="../images/icons/section-arrow-right.svg" alt="arrow right">
+              </div>
+            </div>
+          </div>
+
+          <div class="section__slider today__slider">
+
+          </div>
+          <button class="button section__button">View All Products</button>
+        </div>
+      </section>
+
+      <section class="category">
+        <div class="container category-container">
+          <h3 class="section__subtitle subtitle-red">Categories</h3>
+          <div class="section__title">
+            <h2 class="section__title-text title">Browse By Category</h2>
+            <div class="section__block_right">
+              <div class="section__arrows"><img src="../images/icons/section-arrow-left.svg" alt="arrow left"></div>
+              <div class="section__arrows"><img src="../images/icons/section-arrow-right.svg" alt="arrow right">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="month">
+        <div class="container month-container">
+          <h3 class="section__subtitle subtitle-red">This Month</h3>
+          <div class="section__title">
+            <h2 class="section__title-text title">Best Selling Products</h2>
+            <button class="button">View All</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container products-container">
+          <h3 class="section__subtitle subtitle-red">Our Products</h3>
+          <div class="section__title">
+            <h2 class="section__title-text title">Browse By Category</h2>
+            <div class="section__block_right">
+              <div class="section__arrows"><img src="../images/icons/section-arrow-left.svg" alt="arrow left"></div>
+              <div class="section__arrows"><img src="../images/icons/section-arrow-right.svg" alt="arrow right">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="new">
+        <div class="container new-container">
+          <h3 class="section__subtitle subtitle-red">Featured</h3>
+          <div class="section__title">
+            <h2 class="section__title-text title">New Arrival</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-black">
+      <div class="container footer__container">
+        <div class="footer__block">
+
+          <div class="footer__block-subscribe">
+            <h2 class="footer__name">Exclusive</h2>
+            <h3 class="footer__title">Subscribe</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                Get 10% off your first order
+              </li>
+              <li class="footer__item footer__inputs">
+                <input class="footer__input-email" type="email" placeholder="Enter your email">
+                <input class="footer__input-image" readonly>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__support">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <address class="footer__support-address">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</address>
+              </li>
+              <li class="footer__item">
+                <a class="footer__support-email footer__item-link"
+                  href="mailto:exclusive@gmail.com">exclusive@gmail.com</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__support-phone footer__item-link" href="tel:+88015888889999">+88015-88888-9999</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__account">
+            <h3 class="footer__title">Account</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__item-link" href="./account.html">My Account</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="./sign-up.html">Login / Register</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="./cart.html">Cart</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="./wishlist.html">Wishlist</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">Shop</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__useful">
+            <h3 class="footer__title">Quick Link</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__item-link" href="#">Privacy Policy</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">Terms Of Use</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">FAQ</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__apps">
+            <h3 class="footer__title">Download App</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__apps-text">Save $3 with App New User Only</p>
+                <div class="footer__item-box">
+                  <!-- код для qr кода?? -->
+                  <img class="footer__img-qrcode" src="../images/Qr-Code.jpg" alt="QR-code">
+                  <div class="footer__item-apps">
+                    <a href="#">
+                      <img src="../images/GooglePlay.jpg" alt="GooglePlay">
+                    </a>
+                    <a href="#">
+                      <img src="../images/AppStore.jpg" alt="AppStore">
+                    </a>
+                  </div>
+                </div>
+
+              </li>
+              <li class="footer__item footer__icons">
+                <a href="#">
+                  <img class="footer__icon-facebook" src="../images/icons/facebook.svg" alt="facebook">
+                </a>
+                <a href="#">
+                  <img class="footer__icon-twitter" src="../images/icons/twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                  <img class="footer__icon-instagram" src="../images/icons/instaram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                  <img class="footer__icon-linkedin" src="../images/icons/linkedin.svg" alt="linkedin">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">Copyright Rimel 2022. All right reserved</div>
+    </footer>
+  </div>
+</body>
+
+</html>

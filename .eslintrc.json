@@ -1,0 +1,20 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "no-console": 0, //решение проблемы с предупреждением Unexpected console statement no-console
+        "no-restricted-syntax": [
+            "error",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ]
+    }
+}

@@ -1,0 +1,253 @@
+.first-screen {
+    margin-bottom: 150px;
+}
+
+.first-screen__container {
+    display: flex;
+}
+
+/* =============================================== menu */
+
+.menu {
+    padding-right: 16px;
+    border-right: 1px solid #E5E5E5;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 40px 0 0 0;
+    width: 217px;
+    list-style-type: none;
+}
+
+.menu__item:nth-child(n+2) {
+    margin-top: 16px;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu__link:hover {
+    transition: 0.5s ease-out;
+    text-decoration: underline;
+}
+
+/* =============================================== slider */
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.slider-first {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url("../images/promo-phone.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 160%;
+}
+
+.slider-first__block {
+    width: 352px;
+    padding: 58px 0 0 64px;
+    color: #ffffff;
+}
+
+.slider-first__subtitle {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    font-size: 16px;
+}
+
+.slider-first__image {
+    margin-right: 24px;
+}
+
+.slider-first__title {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.slider-first__shop {
+    position: relative;
+    height: 28px;
+    margin: 0;
+    margin-top: 22px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+.slider-first__shop::after {
+    content: url('../images/icons/promo-arrow-white.svg');
+    position: absolute;
+    width: 17px;
+    height: 14px;
+    top: 3px;
+    right: -30px;
+}
+
+.slider-first__shop:hover {
+    /* transition: 0.5s ease-out; */
+    transform: scale(1.03);
+}
+
+.slider__dots {
+    position: absolute;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    bottom: 12px;
+}
+
+.slider__dots_style {
+    height: 12px;
+    width: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.dot-active {
+    background-color: #DB4444;
+    border: 2px solid #ffffff;
+}
+
+/* =============================================== section */
+.section__subtitle {
+    margin: 0;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.section__subtitle::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 20px;
+    background-color: #DB4444;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.section__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__block_right {
+    display: flex;
+    gap: 8px;
+}
+
+.section__block_right img {
+    height: 14px;
+}
+
+.section__block_right img:hover {
+    height: 17px;
+}
+
+.section__arrows {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section__button {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* =============================================== today's */
+.today {
+    margin-bottom: 80px;
+}
+
+.today-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.today__slider {
+    margin-bottom: ;
+}
+
+.today__timer {
+    margin-left: 87px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    align-self: flex-start;
+}
+
+.today__timer-text {
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.today__timer-digit {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.today__timer-divider {
+    padding-top: 17px;
+}
+
+/* =============================================== category */
+.category {
+    margin-bottom: 80px;
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/* =============================================== month */
+.month {
+    margin-bottom: 140px;
+}
+
+/* =============================================== products */
+.products {
+    margin-bottom: 140px;
+}
+
+/* =============================================== new */
+.new {
+    margin-bottom: 140px;
+}
