@@ -238,12 +238,13 @@
 }
 
 .category__box {
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .category__block {
-    margin-top: 60px;
+
     width: 170px;
     height: 145px;
     display: flex;
@@ -255,6 +256,10 @@
     cursor: pointer;
     text-decoration: none;
     color: #000000;
+}
+
+.category__block:hover {
+    margin-top: -5px;
 }
 
 .category__img {
