@@ -196,7 +196,9 @@
 }
 
 .today__slider {
-    margin-bottom: ;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .today__timer {
