@@ -34,6 +34,21 @@
   background-color: #DB4444;
 }
 
+.card__badge_new {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 55px;
+  height: 26px;
+  padding: 4px 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #00FF66;
+}
+
 .card__box {
   position: absolute;
   width: 34px;

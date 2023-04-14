@@ -164,10 +164,6 @@
     height: 14px;
 }
 
-/* .section__block_right img:hover {
-    height: 17px;
-} */
-
 .section__arrows {
     width: 46px;
     height: 46px;
@@ -296,9 +292,28 @@
     margin-bottom: 140px;
 }
 
+.month__slider {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* =============================================== products */
 .products {
     margin-bottom: 140px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.products__slider {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
 }
 
 /* =============================================== new */
