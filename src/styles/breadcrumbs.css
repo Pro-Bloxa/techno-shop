@@ -17,6 +17,5 @@ ul.breadcrumbs li+li:before {
 }
 
 .breadcrumbs__link {
-  text-decoration: none;
   color: #7D8184;
 }

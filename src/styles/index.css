@@ -14,7 +14,6 @@
 }
 
 .menu__list {
-    margin: 0;
     padding: 40px 0 0 0;
     width: 217px;
     list-style-type: none;
@@ -25,16 +24,22 @@
 }
 
 .menu__link {
+    position: relative;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     color: #000000;
 }
 
-.menu__link:hover {
-    transition: 0.5s ease-out;
-    text-decoration: underline;
-}
+/* нужна ли здесь анимация при ховере? */
+/* .menu__link:hover::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    display: block;
+    border-bottom: 1px solid #7D8184;
+    bottom: 0;
+} */
 
 /* =============================================== slider */
 
@@ -62,7 +67,6 @@
 
 .slider-first__subtitle {
     display: flex;
-    margin: 0;
     align-items: center;
     font-size: 16px;
 }
@@ -72,7 +76,6 @@
 }
 
 .slider-first__title {
-    margin: 0;
     margin-top: 20px;
     font-weight: 600;
     font-size: 48px;
@@ -82,7 +85,6 @@
 .slider-first__shop {
     position: relative;
     height: 28px;
-    margin: 0;
     margin-top: 22px;
     display: inline-block;
     font-weight: 400;
@@ -102,7 +104,7 @@
 }
 
 .slider-first__shop:hover {
-    /* transition: 0.5s ease-out; */
+    transition: 0.5s ease-out;
     transform: scale(1.03);
 }
 
@@ -132,7 +134,6 @@
 
 /* =============================================== section */
 .section__subtitle {
-    margin: 0;
     margin-bottom: 20px;
     height: 40px;
 }
@@ -163,9 +164,9 @@
     height: 14px;
 }
 
-.section__block_right img:hover {
+/* .section__block_right img:hover {
     height: 17px;
-}
+} */
 
 .section__arrows {
     width: 46px;
@@ -176,6 +177,11 @@
     background-color: rgba(245, 245, 245, 1);
     border-radius: 50%;
     cursor: pointer;
+}
+
+.section__arrows:hover {
+    background-color: #eae7e7;
+    transition: 0.5s ease-out;
 }
 
 .section__button {
@@ -246,7 +252,6 @@
 }
 
 .category__block {
-
     width: 170px;
     height: 145px;
     display: flex;
@@ -261,7 +266,8 @@
 }
 
 .category__block:hover {
-    margin-top: -5px;
+    transform: translateY(-5px);
+    transition: 0.5s ease-out;
 }
 
 .category__img {
@@ -270,7 +276,6 @@
 }
 
 .category__text {
-    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -360,7 +365,6 @@
 }
 
 .new__title {
-    margin: 0;
     margin-bottom: 16px;
     font-weight: 600;
     font-size: 24px;
@@ -373,7 +377,6 @@
 }
 
 .new__text {
-    margin: 0;
     margin-bottom: 16px;
     font-weight: 400;
     font-size: 14px;
@@ -390,6 +393,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
+    text-decoration: underline;
 }
 
 .new__link:hover {
@@ -419,7 +423,6 @@
 }
 
 .servies__title {
-    margin: 0;
     margin-top: 24px;
     font-weight: 600;
     font-size: 20px;
@@ -428,7 +431,6 @@
 }
 
 .servies__text {
-    margin: 0;
     margin-top: 8px;
     font-weight: 400;
     font-size: 14px;

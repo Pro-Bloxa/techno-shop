@@ -11,14 +11,9 @@
 @import url('./index.css');
 @import url('./footer.css');
 
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   height: 100vh;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: Poppins, Arial, sans-serif;
 }
 
