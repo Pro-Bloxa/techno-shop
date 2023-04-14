@@ -11,3 +11,12 @@
     background-color: #E07575;
     transition: 0.5s ease-out;
 }
+
+.banner__button {
+    background-color: #00FF66;
+}
+
+.banner__button:hover {
+    background-color: #A0BCE0;
+    transition: 0.5s ease-out;
+}

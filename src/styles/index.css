@@ -298,6 +298,71 @@
     justify-content: space-between;
 }
 
+/* =============================================== banner */
+.banner {
+    margin-bottom: 140px;
+}
+
+.banner-container {
+    padding: 69px 44px 69px 56px;
+    color: #ffffff;
+    background-color: #0D0D0D;
+}
+
+.banner__block {
+    width: 445px;
+}
+
+.banner__block-subtitle {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FF66;
+}
+
+.banner__block-title {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.banner__timer {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__timer-group {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.banner__timer-digit {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner__timer-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.banner__box-button {
+    margin-top: 40px;
+}
+
 /* =============================================== products */
 .products {
     margin-bottom: 140px;
