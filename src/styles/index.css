@@ -380,6 +380,7 @@
 
 .banner__box-button {
     margin-top: 40px;
+    display: flex;
 }
 
 /* =============================================== products */
