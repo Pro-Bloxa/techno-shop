@@ -142,3 +142,47 @@
   line-height: 21px;
   color: #7D8184;
 }
+
+.card__radio {
+  position: relative;
+  margin-top: 8px;
+}
+
+.card__radio-box {}
+
+.card__radio-item {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+}
+
+.card__radio-item+span {
+  cursor: pointer;
+}
+
+.card__radio-item+span::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url('../images/radio/radio_red.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  vertical-align: middle;
+}
+
+.card__radio-item:checked+span::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url('../images/radio/radio-double_red.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  vertical-align: middle;
+}
