@@ -9,11 +9,11 @@
 @import url('./account.css');
 @import url('./header.css');
 @import url('./index.css');
+@import url('./wishlist.css');
 @import url('./footer.css');
 
 body {
   height: 100vh;
-  /* box-sizing: border-box; */
   font-family: Poppins, Arial, sans-serif;
 }
 

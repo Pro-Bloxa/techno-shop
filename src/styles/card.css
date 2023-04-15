@@ -76,6 +76,16 @@
   right: 12px;
 }
 
+.card__box-eye_up {
+  top: 12px;
+  right: 12px;
+}
+
+.card__box-trash {
+  top: 12px;
+  right: 12px;
+}
+
 .card__title {
   margin-bottom: 8px;
   font-weight: 500;

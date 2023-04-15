@@ -1,0 +1,22 @@
+.wishlist {
+    margin-top: 80px;
+}
+
+.wishlist__block {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.wishlist__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.for-you {
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
