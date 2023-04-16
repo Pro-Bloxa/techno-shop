@@ -7,21 +7,25 @@
     line-height: 24px;
     border: none;
     border-radius: 4px;
+    border: 1px solid #DB4444;
     cursor: pointer;
 }
 
 .button:hover {
     background-color: #E07575;
+    border: 1px solid #E07575;
     transition: 0.5s ease-out;
 }
 
 .banner__button {
     background-color: #00FF66;
+    border: none;
 }
 
 .banner__button:hover {
     background-color: #A0BCE0;
     transition: 0.5s ease-out;
+    border: none;
 }
 
 .button__white {
@@ -33,5 +37,7 @@
 .button__white:hover {
     color: #7D8184;
     background-color: #ffffff;
+    border: 1px solid #7D8184;
     transition: 0.5s ease-out;
+    border: 1px solid #7D8184;
 }

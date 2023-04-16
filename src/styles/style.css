@@ -10,6 +10,7 @@
 @import url('./header.css');
 @import url('./index.css');
 @import url('./wishlist.css');
+@import url('./cart.css');
 @import url('./footer.css');
 
 body {

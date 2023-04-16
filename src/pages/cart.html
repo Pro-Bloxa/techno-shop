@@ -55,8 +55,7 @@
                 alt="heart"></a>
             <a href="./cart.html" class="header-menu__icons-cart"><img src="../images/icons/cart-header.png"
                 alt="cart"></a>
-            <a href="./account.html" class="header-menu__icons-user hidden"><img src="../images/icons/user.png"
-                alt="user"></a>
+            <a href="./account.html" class="header-menu__icons-user"><img src="../images/icons/user.png" alt="user"></a>
           </div>
         </div>
       </div>
@@ -64,7 +63,73 @@
   </header>
   <div class="wrapper">
     <main class="main">
-
+      <section class="cart">
+        <div class="container cart-container">
+          <div class="page-menu">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="./index.html">Home</a></li>
+              <li class="breadcrumbs__item">Cart</li>
+            </ul>
+          </div>
+          <div class="cart__box">
+            <div class="cart__block cart__block-list">
+              <ul class="cart__list text">
+                <li class="cart__item cart__item_up">Product</li>
+                <li class="cart__item"><img class="icon-cancel" src="../images/icons/icon-cancel.svg" alt="cross"><img
+                    class="cart-image" src="../images/products/tv-small.svg" alt="LCD Monitor">LCD Monitor
+                </li>
+                <li class="cart__item"><img class="icon-cancel hidden" src="../images/icons/icon-cancel.svg"
+                    alt="cross"><img class="cart-image" src="../images/products/gamepad-small.svg" alt="H1 Gamepa">H1
+                  Gamepad
+                </li>
+              </ul>
+              <ul class="cart__list text">
+                <li class="cart__item cart__item_up">Price</li>
+                <li class="cart__item"><span class="dollar">$</span>650</li>
+                <li class="cart__item"><span class="dollar">$</span>550</li>
+              </ul>
+              <ul class="cart__list text">
+                <li class="cart__item cart__item_up">Quantity</li>
+                <li class="cart__item">LCD Monitor</li>
+                <li class="cart__item">H1 Gamepad</li>
+              </ul>
+              <ul class="cart__list text">
+                <li class="cart__item cart__item_up">Subtotal</li>
+                <li class="cart__item">$</span>650</li>
+                <li class="cart__item">$</span>1100</li>
+              </ul>
+            </div>
+            <div class="cart__block cart__block-buttons">
+              <a class="button button__white" href="#">Return To Shop</a>
+              <button class="button button__white">Update Cart</button>
+            </div>
+            <div class="cart__block">
+              <div class="cart__coupon">
+                <input class="cart__coupon_input" type="text" placeholder="Coupon Code">
+                <button class="button cart__coupon_button">Apply Coupon</button>
+              </div>
+              <div class="cart__total">
+                <h3 class="cart__total-title">Cart Total</h3>
+                <div class="cart_-total-list">
+                  <div class="cart__total-item cart__total-line">
+                    <p class="cart__total-text">Subtotal:</p>
+                    <div class="cart__total-price"><span class="dollar">$</span>1750</div>
+                  </div>
+                  <div class="cart__total-item cart__total-line">
+                    <p class="cart__total-text">Shipping:</p>
+                    <div class="cart__total-price">Free</div>
+                  </div>
+                  <div class="cart__total-item">
+                    <p class="cart__total-text">Total:</p>
+                    <div class="cart__total-price"><span class="dollar">$</span>1750</div>
+                  </div>
+                </div>
+                <button class="button cart__total-button">Procees to checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer bg-black">

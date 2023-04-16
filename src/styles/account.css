@@ -1,6 +1,6 @@
 .account {
-    font-family: Poppins, Arial, sans-serif;
-    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 180px;
 }
 
 .account__username {
@@ -10,7 +10,7 @@
 
 .account__box {
     margin-top: 80px;
-    margin-bottom: 180px;
+
     display: flex;
     justify-content: space-between;
 }
