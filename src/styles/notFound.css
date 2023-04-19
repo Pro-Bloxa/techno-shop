@@ -1,0 +1,25 @@
+.not-found {
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+
+.not-found__box {
+    margin: 0 auto;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.not-found__title {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 110px;
+    line-height: 115px;
+}
+
+.not-found__text {
+    margin-bottom: 80px;
+}
+
+.not-found__btn {
+    display: inline-block;
+}

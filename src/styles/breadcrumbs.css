@@ -17,5 +17,15 @@ ul.breadcrumbs li+li:before {
 }
 
 .breadcrumbs__link {
+  position: relative;
   color: #7D8184;
+}
+
+.breadcrumbs__link:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #7D8184;
+  bottom: 0;
 }
