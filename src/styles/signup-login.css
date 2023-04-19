@@ -40,9 +40,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #7D8184;
   border-radius: 4px;
-  text-decoration: none;
 }
 
 .button__google img {
@@ -50,7 +49,9 @@
 }
 
 .button__google:hover {
-  transform: scale(1.02);
+  color: #7D8184;
+  background-color: #ffffff;
+  transition: 0.5s ease-out;
 }
 
 .login__box,
@@ -75,7 +76,8 @@
 }
 
 .login__box-link:hover {
-  text-decoration: none;
+  color: #7D8184;
+  transition: 0.5s ease-out;
 }
 
 .form__buttons {
