@@ -52,9 +52,12 @@
 
           <div class="header-menu__icons">
             <a href="./wishlist.html" class="header-menu__icons-heart"><img src="../images/icons/heart-header.png"
-                alt="heart"></a>
-            <a href="./cart.html" class="header-menu__icons-cart"><img src="../images/icons/cart-header.png"
-                alt="cart"></a>
+                alt="heart">
+              <button class="product-counter">4</button>
+            </a>
+            <a href="./cart.html" class="header-menu__icons-cart"><img src="../images/icons/cart-header.png" alt="cart">
+              <button class="product-counter">2</button>
+            </a>
             <a href="./account.html" class="header-menu__icons-user"><img src="../images/icons/user.png" alt="user"></a>
           </div>
         </div>
@@ -72,42 +75,54 @@
             </ul>
           </div>
           <div class="cart__box">
-            <div class="cart__block cart__block-list">
-              <ul class="cart__list text">
-                <li class="cart__item cart__item_up">Product</li>
-                <li class="cart__item"><img class="icon-cancel" src="../images/icons/icon-cancel.svg" alt="cross"><img
-                    class="cart-image" src="../images/products/tv-small.svg" alt="LCD Monitor">LCD Monitor
-                </li>
-                <li class="cart__item"><img class="icon-cancel hidden" src="../images/icons/icon-cancel.svg"
-                    alt="cross"><img class="cart-image" src="../images/products/gamepad-small.svg" alt="H1 Gamepa">H1
-                  Gamepad
-                </li>
-              </ul>
-              <ul class="cart__list text">
-                <li class="cart__item cart__item_up">Price</li>
-                <li class="cart__item"><span class="dollar">$</span>650</li>
-                <li class="cart__item"><span class="dollar">$</span>550</li>
-              </ul>
-              <ul class="cart__list text">
-                <li class="cart__item cart__item_up">Quantity</li>
-                <li class="cart__item">LCD Monitor</li>
-                <li class="cart__item">H1 Gamepad</li>
-              </ul>
-              <ul class="cart__list text">
-                <li class="cart__item cart__item_up">Subtotal</li>
-                <li class="cart__item">$</span>650</li>
-                <li class="cart__item">$</span>1100</li>
-              </ul>
+            <div class="cart__block cart__block-list text">
+              <div class="cart__block-row cart__block-row_up">
+                <p class="cart__item">Product</p>
+                <p class="cart__item">Price</p>
+                <p class="cart__item">Quantity</p>
+                <p class="cart__item">Subtotal</p>
+              </div>
+              <div class="cart__block-row">
+                <p class="cart__item"><button class="icon-cancel">&#x2716;</button> <img class="cart-image"
+                    src="../images/products/tv-small.svg" alt="LCD Monitor">LCD Monitor</p>
+                <p class="cart__item">$650</p>
+
+                <p class="cart__item">
+                  <label class="cart__item-quantity">
+                    <input class="cart__item-input" type="number" value="01">
+                    <img class="cart_arrow_up" src="../images/icons/arrow-up.svg" alt="arrow up">
+                    <img class="cart_arrow_down" src="../images/icons/arrow-down.svg" alt="arrow down">
+                  </label>
+                </p>
+
+                <p class="cart__item">$650</p>
+              </div>
+              <div class="cart__block-row">
+                <p class="cart__item"><button class="icon-cancel hidden">&#x2716;</button> <img class="cart-image"
+                    src="../images/products/gamepad-small.svg" alt="LCD Monitor">H1 Gamepad</p>
+                <p class="cart__item">$550</p>
+
+                <p class="cart__item">
+                  <label class="cart__item-quantity">
+                    <input class="cart__item-input" type="number" value="01">
+                    <img class="cart_arrow_up" src="../images/icons/arrow-up.svg" alt="arrow up">
+                    <img class="cart_arrow_down" src="../images/icons/arrow-down.svg" alt="arrow down">
+                  </label>
+                </p>
+
+                <p class="cart__item">$1100</p>
+              </div>
+
             </div>
             <div class="cart__block cart__block-buttons">
               <a class="button button__white" href="#">Return To Shop</a>
               <button class="button button__white">Update Cart</button>
             </div>
             <div class="cart__block">
-              <div class="cart__coupon">
+              <form class="cart__coupon">
                 <input class="cart__coupon_input" type="text" placeholder="Coupon Code">
                 <button class="button cart__coupon_button">Apply Coupon</button>
-              </div>
+              </form>
               <div class="cart__total">
                 <h3 class="cart__total-title">Cart Total</h3>
                 <div class="cart_-total-list">
