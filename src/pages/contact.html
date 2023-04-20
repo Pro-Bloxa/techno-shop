@@ -102,9 +102,19 @@
             </aside>
             <form class="contact__form">
               <div class="contact__inputs">
-                <input class="contact__input" type="text" name="name" placeholder="Your Name *" required>
-                <input class="contact__input" type="email" name="email" placeholder="Your Email *" required>
-                <input class="contact__input" type="tel" name="phone" placeholder="Your Phone *" required>
+                <label class="placeholder__box">
+                  <input class="contact__input" type="text" name="name" required>
+                  <div class="placeholder-text">Your Name <span style="color: #DB4444;">*</span></div>
+                </label>
+                <label class="placeholder__box">
+                  <input class="contact__input" type="email" name="email" required>
+                  <div class="placeholder-text">Your Email <span style="color: #DB4444;">*</span></div>
+                </label>
+                <label class="placeholder__box">
+                  <input class="contact__input" type="tel" name="phone" required>
+                  <div class="placeholder-text">Your Phone <span style="color: #DB4444;">*</span></div>
+                </label>
+
               </div>
 
               <textarea class="contact__textarea" placeholder="Your Massage"></textarea>
