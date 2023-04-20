@@ -12,6 +12,7 @@
 @import url('./wishlist.css');
 @import url('./cart.css');
 @import url('./notFound.css');
+@import url('./contact.css');
 @import url('./footer.css');
 
 body {
@@ -20,9 +21,11 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1190px;
   max-width: 100%;
   margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .wrapper {
