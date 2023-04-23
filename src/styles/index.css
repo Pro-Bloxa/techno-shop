@@ -264,6 +264,8 @@
 .category__block:hover {
     transform: translateY(-5px);
     transition: 0.5s ease-out;
+    /* background-color: #DB4444;
+    color: #ffffff; */
 }
 
 .category__img {

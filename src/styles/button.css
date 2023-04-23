@@ -12,7 +12,7 @@
 
 .button:hover {
     background-color: #E07575;
-    border: 1px solid #E07575;
+    border-color: #E07575;
     transition: 0.5s ease-out;
 }
 
@@ -38,5 +38,5 @@
     background-color: #ffffff;
     border: 1px solid #7D8184;
     transition: 0.5s ease-out;
-    border: 1px solid #7D8184;
+    border-color: #7D8184;
 }

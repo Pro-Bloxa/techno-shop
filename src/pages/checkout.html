@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>Checkout</title>
+</head>
+
+<body>
+  <header class="header">
+    <section class="header-top bg-black">
+      <div class="container header-top__container">
+        <div class="header-top__ad">
+          <p class="header-top__ad-text">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="header-top__ad-link">ShopNow</a>
+        </div>
+        <!-- <div class="header-top__language">
+          <a href="#" class="header-top__language-link">English</a>
+        </div> -->
+        <!-- в теге a есть ссылка на нужную страницу. В seleсt нет -->
+        <select class="header-top__language" name="language">
+          <option value="English" style="color:black">English</option>
+          <option value="Spanish" style="color:black">Еspañol</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="header-menu">
+      <div class="container header-menu__container">
+        <a class="header-menu__name" href="./index.html">Exclusive</a>
+        <nav class="header-menu__menu">
+          <ul class="header-menu__menu-list">
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./contact.html">Contact</a></li>
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./about.html">About</a>
+            </li>
+            <li class="header-menu__menu-item"><a class="header-menu__menu-link" href="./sign-up.html">Sign
+                Up</a></li>
+          </ul>
+        </nav>
+        <div class="header-menu__block-user">
+          <div class="header-menu__inputs">
+            <input class="header-menu__input" type="text" name="input-search" placeholder="What are you looking for?">
+            <input class="header-menu__input-loupe" readonly>
+          </div>
+
+          <div class="header-menu__icons">
+            <a href="./wishlist.html" class="header-menu__icons-heart"><img src="../images/icons/heart-header.png"
+                alt="heart"></a>
+            <a href="./cart.html" class="header-menu__icons-cart"><img src="../images/icons/cart-header.png"
+                alt="cart"></a>
+            <a href="./account.html" class="header-menu__icons-user hidden"><img src="../images/icons/user.png"
+                alt="user"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="checkout">
+        <div class="container checkout__container">
+          <div class="page-menu checkout__page-menu">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Account</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="./account.html">My Account</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Product</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="./cart.html">View Cart</a></li>
+              <li class="breadcrumbs__item">CheckOut</li>
+            </ul>
+          </div>
+
+          <div class="section__title checkout__title">
+            <h2 class="section__title-text checkout__text">Billing Details</h2>
+          </div>
+
+          <div class="checkout__box">
+            <div class="checkout__form">
+              <label class="checkout__label">
+                First Name<span style="color: #DB4444;">*</span>
+                <input class="checkout__input" type="text" required>
+              </label>
+
+              <label class="checkout__label">
+                Company Name
+                <input class="checkout__input" type="text">
+              </label>
+
+              <label class="checkout__label">
+                Street Address<span style="color: #DB4444;">*</span>
+                <input class="checkout__input" type="text" required>
+              </label>
+
+              <label class="checkout__label">
+                Apartment, floor, etc. (optional)
+                <input class="checkout__input" type="text">
+              </label>
+
+              <label class="checkout__label">
+                Town/City<span style="color: #DB4444;">*</span>
+                <input class="checkout__input" type="text" required>
+              </label>
+
+              <label class="checkout__label">
+                Phone Number<span style="color: #DB4444;">*</span>
+                <input class="checkout__input" type="tel" required>
+              </label>
+
+              <label class="checkout__label">
+                Email Address<span style="color: #DB4444;">*</span>
+                <input class="checkout__input" type="email" required>
+              </label>
+
+              <label class="checkout__label checkout__label-checkbox">
+                <input class="checkout__checkbox" type="checkbox"><span></span>
+                Save this information for faster check-out next time
+              </label>
+
+            </div>
+
+            <div class="checkout__cart">
+              <div class="checkout__block-row">
+                <p class="checkout__cart-item">
+                  <img class="cart-image" src="../images/products/tv-small.svg" alt="LCD Monitor">
+                  <span class="cart__item-name">LCD Monitor</span>
+                </p>
+                <p class="checkout__cart-item"><span class="dollar">$</span>650</p>
+              </div>
+
+              <div class="checkout__block-row">
+                <p class="checkout__cart-item">
+                  <img class="cart-image" src="../images/products/gamepad-small.svg" alt="H1 Gamepad">
+                  <span class="cart__item-name">H1 Gamepad</span>
+                </p>
+                <p class="checkout__cart-item"><span class="dollar">$</span>1100</p>
+              </div>
+
+              <div class="checkout__total-list">
+                <div class="cart__total-item cart__total-line">
+                  <p class="cart__total-text">Subtotal:</p>
+                  <div class="cart__total-price"><span class="dollar">$</span>1750</div>
+                </div>
+                <div class="cart__total-item cart__total-line">
+                  <p class="cart__total-text">Shipping:</p>
+                  <div class="cart__total-price">Free</div>
+                </div>
+                <div class="cart__total-item">
+                  <p class="cart__total-text">Total:</p>
+                  <div class="cart__total-price"><span class="dollar">$</span>1750</div>
+                </div>
+              </div>
+
+              <div class="checkout__pay-bank">
+                <label class="checkout__pay-label">
+                  <input class="checkout__pay-radio" type="radio" name="checkout__pay"><span></span>
+                  Bank
+                </label>
+                <div class="checkout__pay-cards">
+                  <img class="checkout__pay-img" src="../images/icons/bank-bkash.svg" alt="bank bkash">
+                  <img class="checkout__pay-img" src="../images/icons/bank-visa.svg" alt="bank visa">
+                  <img class="checkout__pay-img" src="../images/icons/bank-mastercard.svg" alt="bank mastercard">
+                  <img class="checkout__pay-img" src="../images/icons/bank-nagad.svg" alt="bank nagad">
+                </div>
+              </div>
+
+              <div class="checkout__pay-cash">
+                <label class="checkout__pay-label">
+                  <input class="checkout__pay-radio" type="radio" name="checkout__pay"><span></span>
+                  Cash on delivery
+                </label>
+              </div>
+
+              <form class="cart__coupon">
+                <input class="cart__coupon_input checkout__coupon_input" type="text" placeholder="Coupon Code">
+                <button class="button cart__coupon_button">Apply Coupon</button>
+              </form>
+
+              <button class="button checkout__button">Place Order</button>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-black">
+      <div class="container footer__container">
+        <div class="footer__block">
+
+          <div class="footer__block-subscribe">
+            <h2 class="footer__name">Exclusive</h2>
+            <h3 class="footer__title">Subscribe</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                Get 10% off your first order
+              </li>
+              <li class="footer__item footer__inputs">
+                <input class="footer__input-email" type="email" placeholder="Enter your email">
+                <input class="footer__input-image" readonly>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__support">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <address class="footer__support-address">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+                </address>
+              </li>
+              <li class="footer__item">
+                <a class="footer__support-email footer__item-link"
+                  href="mailto:exclusive@gmail.com">exclusive@gmail.com</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__support-phone footer__item-link" href="tel:+88015888889999">+88015-88888-9999</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__account">
+            <h3 class="footer__title">Account</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__item-link" href="account.html">My Account</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="sign-up.html">Login / Register</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="cart.html">Cart</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="wishlist.html">Wishlist</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">Shop</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__useful">
+            <h3 class="footer__title">Quick Link</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__item-link" href="#">Privacy Policy</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">Terms Of Use</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">FAQ</a></li>
+              <li class="footer__item"><a class="footer__item-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__apps">
+            <h3 class="footer__title">Download App</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__apps-text">Save $3 with App New User Only</p>
+                <div class="footer__item-box">
+                  <!-- код для qr кода?? -->
+                  <img class="footer__img-qrcode" src="../images/Qr-Code.jpg" alt="QR-code">
+                  <div class="footer__item-apps">
+                    <a href="#">
+                      <img src="../images/GooglePlay.jpg" alt="GooglePlay">
+                    </a>
+                    <a href="#">
+                      <img src="../images/AppStore.jpg" alt="AppStore">
+                    </a>
+
+                  </div>
+                </div>
+
+              </li>
+              <li class="footer__item footer__icons">
+                <a href="#">
+                  <img class="footer__icon-facebook" src="../images/icons/facebook.svg" alt="facebook">
+                </a>
+                <a href="#">
+                  <img class="footer__icon-twitter" src="../images/icons/twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                  <img class="footer__icon-instagram" src="../images/icons/instaram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                  <img class="footer__icon-linkedin" src="../images/icons/linkedin.svg" alt="linkedin">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">Copyright Rimel 2022. All right reserved</div>
+    </footer>
+  </div>
+</body>
+
+</html>
