@@ -10,7 +10,7 @@
   /* padding-right: 15px; */
 }
 
-ul.breadcrumbs li+li:before {
+ul.breadcrumbs li:not(:last-child):after {
   padding: 8px;
   color: #7D8184;
   content: "/\00a0";
