@@ -6,9 +6,10 @@
 @import url('./breadcrumbs.css');
 @import url('./dropdown.css');
 @import url('./card.css');
-@import url('./account.css');
-@import url('./header.css');
 @import url('./index.css');
+@import url('./account.css');
+@import url('./about.css');
+@import url('./header.css');
 @import url('./wishlist.css');
 @import url('./cart.css');
 @import url('./notFound.css');
