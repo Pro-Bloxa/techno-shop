@@ -9,7 +9,7 @@
     margin-bottom: 140px;
     height: 609px;
     display: flex;
-    /* justify-content: start; */
+    justify-content: space-between;
     align-items: center;
     gap: 75px;
 }
@@ -31,14 +31,15 @@
 
 .about__story-photo {
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: 609px;
+    width: 837px;
+
 }
 
 .about__story-img {
     position: absolute;
     min-width: 837px;
-    min-height: 609px;
+    height: 100%;
 }
 
 /* ==============================================about__success */
