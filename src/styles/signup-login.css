@@ -69,15 +69,28 @@
 
 .login__box-text {
   margin: 0;
+  opacity: .7;
 }
 
 .login__box-link {
+  position: relative;
   margin-left: 16px;
+  font-weight: 500;
+  opacity: .7;
 }
 
 .login__box-link:hover {
   color: #7D8184;
   transition: 0.5s ease-out;
+}
+
+.login__box-link:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #7D8184;
+  bottom: 0;
 }
 
 .form__buttons {

@@ -132,7 +132,7 @@
   line-height: 20px;
 }
 
-.producnt__size {
+.product__size {
   width: 32px;
   height: 32px;
   display: flex;
@@ -145,6 +145,7 @@
   line-height: 21px;
   text-transform: uppercase;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .producnt__size:hover {
