@@ -247,10 +247,6 @@
     z-index: 1;
   }
 
-  /* .burger {
-    display: block;
-  } */
-
   .menu-burger {
     /* display: block; */
     position: fixed;

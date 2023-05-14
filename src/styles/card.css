@@ -196,3 +196,7 @@
   background-size: 20px;
   vertical-align: middle;
 }
+
+.today__card:not(:last-child) {
+  margin-right: 15px;
+}
