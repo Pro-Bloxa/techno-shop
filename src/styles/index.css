@@ -294,10 +294,22 @@
   margin-bottom: 140px;
 }
 
+.month-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .month__slider {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 60px;
+  column-gap: 20px;
+}
+
+.month__button_footer {
+  display: none;
 }
 
 /* =============================================== banner */
@@ -316,7 +328,7 @@
 }
 
 .banner__photo {
-  min-width: 600px;
+  max-width: 600px;
   height: 100%;
   margin-right: 44px;
   display: flex;
@@ -401,6 +413,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 60px;
+  column-gap: 20px;
 }
 
 /* =============================================== new */
@@ -541,14 +554,35 @@
 
 /* ====================================================== */
 @media (max-width: 1200px) {
+
   .category__block:not(:last-child) {
     margin-right: 20px;
   }
 }
 
 /* ====================================================== */
-
 @media (max-width: 992px) {
+
+  .month__slider,
+  .products__slider {
+    justify-content: space-around;
+    row-gap: 40px;
+  }
+
+  .banner__block {
+    min-width: 400px;
+  }
+
+  .banner__block-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .banner__photo {
+    width: 600px;
+    max-width: 100%;
+  }
+
   .new__box {
     display: flex;
     flex-wrap: wrap;
@@ -579,6 +613,7 @@
 
 /* ====================================================== */
 @media (max-width: 768px) {
+
   .first-screen {
     margin-bottom: 100px;
   }
@@ -600,17 +635,32 @@
     margin-top: 30px;
   }
 
+  .month-container {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+  .month__button_header {
+    display: none;
+  }
+
+  .month__button_footer {
+    display: block;
+  }
+
   .banner {
     display: none;
   }
 
-  .products {
+  .products,
+  .new,
+  .month {
     margin-bottom: 100px;
   }
 
-  .new {
+  /* .new {
     margin-bottom: 100px;
-  }
+  } */
 
   .new__box {
     margin-top: 30px;

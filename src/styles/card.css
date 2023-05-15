@@ -200,3 +200,24 @@
 .today__card:not(:last-child) {
   margin-right: 15px;
 }
+
+/* ====================================================== */
+@media (max-width: 992px) {
+  .card__block {
+    width: 290px;
+  }
+}
+
+/* ====================================================== */
+@media (max-width: 768px) {
+  .products__card {
+    display: none;
+  }
+}
+
+/* ====================================================== */
+@media (max-width: 576px) {
+  .card__block {
+    width: 300px;
+  }
+}
