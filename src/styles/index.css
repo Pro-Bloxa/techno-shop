@@ -7,6 +7,23 @@
 }
 
 /* =============================================== menu */
+.menu-catalog {
+  margin-top: 24px;
+  display: none;
+  cursor: pointer;
+}
+
+.menu-catalog::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  display: inline-block;
+  background-image: url('../images/icons/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  vertical-align: middle;
+}
 
 .menu {
   padding-right: 16px;
@@ -72,6 +89,7 @@
 }
 
 .slider-first__image {
+  width: 40px;
   margin-right: 24px;
 }
 
@@ -561,7 +579,49 @@
 }
 
 /* ====================================================== */
+@media (max-width: 1079px) {
+
+  .slider-first {
+    background-position: 125% 160%;
+  }
+}
+
+/* ====================================================== */
 @media (max-width: 992px) {
+
+  .first-screen__container {
+    display: block;
+  }
+
+  .menu-catalog {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-catalog:hover .menu {
+    display: block;
+  }
+
+  .slider {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .slider-first {
+    background-position: 100% 160%
+  }
+
+  .slider-first__block {
+    padding: 69px 0 69px 20px;
+  }
+
+  .slider-first__image {
+    margin-right: 15px;
+    width: 31px;
+  }
 
   .month__slider,
   .products__slider {
@@ -616,6 +676,16 @@
 
   .first-screen {
     margin-bottom: 100px;
+  }
+
+  .slider-first {
+    background-position: 120% 50%;
+    background-size: 65%;
+  }
+
+  .slider-first__title {
+    font-size: 40px;
+    line-height: 48px;
   }
 
   .section__block_right {
@@ -686,6 +756,29 @@
 
   .first-screen {
     margin-bottom: 80px;
+  }
+
+  .slider-first__block {
+    padding: 65px 0 65px 5px;
+    width: 175px;
+  }
+
+  .slider-first__image {
+    width: 19px;
+  }
+
+  .slider-first__title {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  .slider-first__subtitle {
+    font-weight: 400;
+    font-style: 14px;
+  }
+
+  .slider-first__image {
+    margin-right: 10px;
   }
 
   .section__title {
